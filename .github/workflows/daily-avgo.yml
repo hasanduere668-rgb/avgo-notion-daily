@@ -1,10 +1,8 @@
 name: AVGO Daily Notion 09:00 ICT
-
 on:
   schedule:
-    - cron: '0 2 * * *' 
-    workflow_dispatch:     # ปุ่มกดรันมือใน GitHub
-
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 jobs:
   notion:
     runs-on: ubuntu-latest
